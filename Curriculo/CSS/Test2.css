@@ -1,0 +1,173 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+.element1 div {
+    color: black;
+}
+
+.element2 div {
+    background-color: bisque;
+    color: black;
+    font-size: medium;
+}
+
+body {
+    background-color: black;
+}
+
+html {
+    background-color: black;
+}
+
+.title h1 {
+    font-size: 3em;
+    border-bottom: #ccc 1px solid;
+    padding-bottom: 1rem;
+}
+
+.home p {
+    text-align: justify;
+}
+
+header {
+    min-height: 70px;
+    background-color: firebrick;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: black;
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.menu li {
+    padding: 20px;
+    min-width: 100px;
+}
+
+.menu a:link {
+    color: violet;
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.menu a:active {
+    color: indigo;
+    text-decoration: none;
+}
+
+footer {
+    background-color: lime;
+    color: blueviolet;
+
+}
+
+footer p {
+    line-height: 35px;
+}
+
+footer .container {
+    display: flex;
+}
+
+footer .menu a {
+    color: crimson;
+}
+
+div.box {
+    width: 400px;
+    display: inline-block;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+[data-tooltip] {
+    position: relative;
+    font-weight: bold;
+}
+
+[data-tooltip]:after {
+    display: none;
+    position: absolute;
+    content: attr(data-tooltip);
+    white-space: normal;
+    color: rgb(179, 255, 0);
+    font-size:larger;
+}
+
+[data-tooltip]:hover:after {
+    display: block;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    top:50px;
+    left:165px;
+}
+
+.daniel div {
+    text-align: center;
+    color: white;
+}
+
+canvas {
+    position: static;
+    margin: auto;
+    bottom: 0;
+    background-color: rgb(245, 245, 245);
+}
+.obra{
+    padding: 80px 180px 80px 100px;
+}
+.obra img {
+    float: left;
+    width: 400px;
+    margin-right: 20px;
+    background-color: white;
+}
+.obra h1{
+    color: white;
+    font-weight: normal;
+}
+.obra h2{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 40px;
+}
+.obra p{
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 20px;
+}
